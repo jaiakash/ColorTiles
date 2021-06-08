@@ -1,16 +1,28 @@
 body {
-    background-color: #25383C;
+    background-color: #0e293b;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
 }
-.grid-container {
+.ans-container {
+    margin: 50px;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 5px;
+    background-color: #d3dee7;
+    border-radius: 5px;
+    padding: 1px;
   }
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+.ans-grid{
+    border: 1px solid rgba(218, 207, 207, 0.8);
+    border-radius: 5px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
+.action{
+    color: #14BDAC;
+    display: flex;
+    margin-top: 150px;
+    font-size: 30px;
+    justify-content: space-around;
+}
