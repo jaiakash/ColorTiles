@@ -10,7 +10,7 @@ body {
     border-radius: 5px;
     padding: 1px;
   }
-.ques-grid{
+.quesgrid{
     border: 1px solid rgba(218, 207, 207, 0.8);
     border-radius: 5px;
     padding: 20px;
@@ -25,7 +25,7 @@ body {
     border-radius: 5px;
     padding: 1px;
   }
-.ans-grid{
+.ansgrid{
     border: 1px solid rgba(218, 207, 207, 0.8);
     border-radius: 5px;
     padding: 20px;
@@ -39,9 +39,13 @@ body {
     font-size: 30px;
     justify-content: space-around;
 }
-.reset {
-    cursor: pointer
-}
-.reset:hover {
-    color: #F2EBD3;
-}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
